@@ -21,5 +21,5 @@ Example:
 (chk 42 (* 2 21)) ; uses equal
 (chk-eqv? 42 (* 2 21))
 (chk-eq? 42 (* 2 21))
-(chk~ (not #t))
+(chk~ #f)
 ```
